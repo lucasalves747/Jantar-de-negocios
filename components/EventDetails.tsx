@@ -50,9 +50,14 @@ const EventDetails: React.FC = () => {
           </div>
           
           <div id="cta">
-            <button className="w-full md:w-auto bg-white text-black font-bold py-4 px-10 hover:bg-brand-gold transition-colors duration-300 uppercase tracking-widest">
+            <a 
+              href="https://link.salee.ai/widget/survey/ERm3Q5x13DUSzrx7WnwU" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block w-full md:w-auto bg-white text-black font-bold py-4 px-10 hover:bg-brand-gold transition-colors duration-300 uppercase tracking-widest"
+            >
               Reservar Minha Vaga Agora
-            </button>
+            </a>
           </div>
         </div>
       </div>

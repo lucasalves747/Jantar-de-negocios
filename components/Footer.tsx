@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             O sucesso nos negócios é construído em torno das pessoas que você conhece e das oportunidades que você cria. O Jantar de Negócios é o catalisador para ambos. Venha para uma noite onde cada prato servido é acompanhado de uma nova possibilidade de crescimento.
           </p>
           <div className="flex flex-col items-center gap-2">
-            <Button>
+            <Button href="https://link.salee.ai/widget/survey/ERm3Q5x13DUSzrx7WnwU">
               Quero Estar Presente no Jantar
             </Button>
             <span className="text-xs text-brand-gold mt-2 animate-pulse">Últimas Vagas Disponíveis!</span>

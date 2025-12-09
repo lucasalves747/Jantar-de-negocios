@@ -5,6 +5,7 @@ import Button from './Button';
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const CTA_LINK = "https://link.salee.ai/widget/survey/ERm3Q5x13DUSzrx7WnwU";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,7 +37,7 @@ const Header: React.FC = () => {
           <button onClick={() => scrollToSection('sobre')} className="text-gray-300 hover:text-brand-gold transition-colors text-sm tracking-widest uppercase">Sobre</button>
           <button onClick={() => scrollToSection('beneficios')} className="text-gray-300 hover:text-brand-gold transition-colors text-sm tracking-widest uppercase">Benefícios</button>
           <button onClick={() => scrollToSection('detalhes')} className="text-gray-300 hover:text-brand-gold transition-colors text-sm tracking-widest uppercase">Detalhes</button>
-          <Button onClick={() => scrollToSection('cta')} className="!py-2 !px-6 text-xs">
+          <Button href={CTA_LINK} className="!py-2 !px-6 text-xs">
             Reservar
           </Button>
         </nav>
@@ -53,7 +54,7 @@ const Header: React.FC = () => {
           <button onClick={() => scrollToSection('sobre')} className="text-white hover:text-brand-gold text-lg tracking-widest uppercase">Sobre</button>
           <button onClick={() => scrollToSection('beneficios')} className="text-white hover:text-brand-gold text-lg tracking-widest uppercase">Benefícios</button>
           <button onClick={() => scrollToSection('detalhes')} className="text-white hover:text-brand-gold text-lg tracking-widest uppercase">Detalhes</button>
-          <Button onClick={() => scrollToSection('cta')}>
+          <Button href={CTA_LINK}>
             Reservar Agora
           </Button>
         </div>

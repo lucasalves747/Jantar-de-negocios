@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-          <Button onClick={() => document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' })}>
+          <Button href="https://link.salee.ai/widget/survey/ERm3Q5x13DUSzrx7WnwU">
             Quero Acelerar Meu Negócio
           </Button>
           <button 
