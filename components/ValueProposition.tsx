@@ -17,7 +17,7 @@ const ValueProposition: React.FC = () => {
               className="w-full h-[500px] object-cover rounded-sm "
             />
           </div>
-
+ 
           <div className="w-full lg:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 leading-tight">
               Cansado de <span className="text-brand-gold">Networking Superficial?</span><br />
