@@ -12,7 +12,7 @@ const ValueProposition: React.FC = () => {
             <div className="absolute -bottom-4 -right-4 w-20 h-20 border-b-2 border-r-2 border-brand-gold opacity-50"></div>
             
             <img 
-              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/693753284b202f4155d6764b.png" 
+              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/69378b2e50387f86a76e0719.png" 
               alt="Jantar executivo" 
               className="w-full h-[500px] object-cover rounded-sm "
             />
