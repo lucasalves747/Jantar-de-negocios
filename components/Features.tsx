@@ -26,7 +26,7 @@ const features = [
 
 const Features: React.FC = () => {
   return (
-    <section id="beneficios" className="py-20 bg-[#0a0a0a]">
+    <section id="beneficios" className="py-10 sm:py-20 bg-[#0a0a0a]">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-brand-gold tracking-widest uppercase text-sm font-bold">Diferenciais Únicos</span>

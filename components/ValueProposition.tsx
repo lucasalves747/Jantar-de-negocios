@@ -2,7 +2,7 @@ import React from 'react';
 
 const ValueProposition: React.FC = () => {
   return (
-    <section id="sobre" className="py-20 md:py-32 bg-brand-dark relative">
+    <section id="sobre" className="mb-2 md:py-32 bg-brand-dark relative">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight} from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -16,9 +16,10 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-6 relative z-10 text-center pt-20">
+       <p className="gold-gradient-text mb-3">   Aventura/Miami</p>
         <div className="inline-block mb-6 px-4 py-1 border border-brand-gold/50 rounded-full bg-black/50 backdrop-blur-sm">
           <span className="text-brand-gold text-xs md:text-sm font-bold tracking-widest uppercase">
-            16 de Dezembro de 2025
+            16 de Dezembro de 2025 
           </span>
         </div>
         

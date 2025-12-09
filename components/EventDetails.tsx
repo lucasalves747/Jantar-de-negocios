@@ -3,7 +3,7 @@ import { Calendar, Clock, MapPin } from 'lucide-react';
 
 const EventDetails: React.FC = () => {
   return (
-    <section id="detalhes" className="py-20 relative">
+    <section id="detalhes" className="py-5 sm:py-20 relative">
        {/* Background Image Parallax effect */}
        <div className="absolute inset-0 z-0">
         <img 
@@ -39,7 +39,7 @@ const EventDetails: React.FC = () => {
                 <MapPin />
               </div>
               <h4 className="text-lg font-bold mb-2 text-white">Local</h4>
-              <p className="text-gray-400">Restaurante de Luxo<br/>Centro Empresarial</p>
+              <p className="text-gray-400">Aventura/Miami</p>
             </div>
           </div>
 
