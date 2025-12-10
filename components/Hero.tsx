@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-6 relative z-10 text-center pt-20">
-        <p className="gold-gradient-text mb-3">   Texas de Brazil 800 <br/> Silks Run Hallandale Beach, FL 33009</p>
+        <p className="gold-gradient-text pt-10 mb-3">   Texas de Brazil 800 <br/> Silks Run Hallandale Beach, FL 33009</p>
         <div className="inline-block mb-3  px-4 py-1 border border-brand-gold/50 rounded-full bg-black/50 backdrop-blur-sm">
           <span className="text-brand-gold text-xs md:text-sm font-bold tracking-widest uppercase">
             16 de Dezembro de 2025
